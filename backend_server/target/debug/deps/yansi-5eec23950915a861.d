@@ -1,0 +1,14 @@
+/home/kira/work/streaming/WEb_Chat_server/backend_server/target/debug/deps/libyansi-5eec23950915a861.rmeta: /home/kira/.cargo/registry/src/index.crates.io-6f17d22bba15001f/yansi-1.0.1/src/lib.rs /home/kira/.cargo/registry/src/index.crates.io-6f17d22bba15001f/yansi-1.0.1/src/macros.rs /home/kira/.cargo/registry/src/index.crates.io-6f17d22bba15001f/yansi-1.0.1/src/windows.rs /home/kira/.cargo/registry/src/index.crates.io-6f17d22bba15001f/yansi-1.0.1/src/attr_quirk.rs /home/kira/.cargo/registry/src/index.crates.io-6f17d22bba15001f/yansi-1.0.1/src/style.rs /home/kira/.cargo/registry/src/index.crates.io-6f17d22bba15001f/yansi-1.0.1/src/color.rs /home/kira/.cargo/registry/src/index.crates.io-6f17d22bba15001f/yansi-1.0.1/src/paint.rs /home/kira/.cargo/registry/src/index.crates.io-6f17d22bba15001f/yansi-1.0.1/src/global.rs /home/kira/.cargo/registry/src/index.crates.io-6f17d22bba15001f/yansi-1.0.1/src/condition.rs /home/kira/.cargo/registry/src/index.crates.io-6f17d22bba15001f/yansi-1.0.1/src/set.rs
+
+/home/kira/work/streaming/WEb_Chat_server/backend_server/target/debug/deps/yansi-5eec23950915a861.d: /home/kira/.cargo/registry/src/index.crates.io-6f17d22bba15001f/yansi-1.0.1/src/lib.rs /home/kira/.cargo/registry/src/index.crates.io-6f17d22bba15001f/yansi-1.0.1/src/macros.rs /home/kira/.cargo/registry/src/index.crates.io-6f17d22bba15001f/yansi-1.0.1/src/windows.rs /home/kira/.cargo/registry/src/index.crates.io-6f17d22bba15001f/yansi-1.0.1/src/attr_quirk.rs /home/kira/.cargo/registry/src/index.crates.io-6f17d22bba15001f/yansi-1.0.1/src/style.rs /home/kira/.cargo/registry/src/index.crates.io-6f17d22bba15001f/yansi-1.0.1/src/color.rs /home/kira/.cargo/registry/src/index.crates.io-6f17d22bba15001f/yansi-1.0.1/src/paint.rs /home/kira/.cargo/registry/src/index.crates.io-6f17d22bba15001f/yansi-1.0.1/src/global.rs /home/kira/.cargo/registry/src/index.crates.io-6f17d22bba15001f/yansi-1.0.1/src/condition.rs /home/kira/.cargo/registry/src/index.crates.io-6f17d22bba15001f/yansi-1.0.1/src/set.rs
+
+/home/kira/.cargo/registry/src/index.crates.io-6f17d22bba15001f/yansi-1.0.1/src/lib.rs:
+/home/kira/.cargo/registry/src/index.crates.io-6f17d22bba15001f/yansi-1.0.1/src/macros.rs:
+/home/kira/.cargo/registry/src/index.crates.io-6f17d22bba15001f/yansi-1.0.1/src/windows.rs:
+/home/kira/.cargo/registry/src/index.crates.io-6f17d22bba15001f/yansi-1.0.1/src/attr_quirk.rs:
+/home/kira/.cargo/registry/src/index.crates.io-6f17d22bba15001f/yansi-1.0.1/src/style.rs:
+/home/kira/.cargo/registry/src/index.crates.io-6f17d22bba15001f/yansi-1.0.1/src/color.rs:
+/home/kira/.cargo/registry/src/index.crates.io-6f17d22bba15001f/yansi-1.0.1/src/paint.rs:
+/home/kira/.cargo/registry/src/index.crates.io-6f17d22bba15001f/yansi-1.0.1/src/global.rs:
+/home/kira/.cargo/registry/src/index.crates.io-6f17d22bba15001f/yansi-1.0.1/src/condition.rs:
+/home/kira/.cargo/registry/src/index.crates.io-6f17d22bba15001f/yansi-1.0.1/src/set.rs:
