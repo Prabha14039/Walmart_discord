@@ -1,25 +1,30 @@
-use std::net::{TcpListener,TcpStream};
-use std::thread;
-use std::io::{Read,Write};
+#[macro_use] extern crate rocket;
+use rocket::futures::{SinkExt, StreamExt};
 
-
-fn handle_client(mut stream: TcpStream) {
-    let msg = b"helle";
-    stream.write(msg).unwrap();
-    println!("sent hello");
+#[get ("/<name>")]
+fn client(ws :ws::WebSocket ,name :&str)->ws::Channel<'_>{
+    ws.channel(move |mut stream| Box::pin(async move{
+        let messages = format!("hello {}",name);
+        let _ = stream.send(messages.into()).await;
+        Ok(())
+    }))
 }
 
-fn main() {
-    let  socket = TcpListener::bind("127.0.0.1:8080").unwrap();
-    for stream in socket.incoming(){
-        match stream {
-            Ok(stream) => {
-                println!("client connected at port 8080");
-                thread::spawn(move || {
-                    handle_client(stream)
-                });
-            }
-            Err (_e) => {println!("error");}
+#[get ("/server")]
+fn server(ws :ws::WebSocket)->ws::Channel<'static>{
+    ws.channel(move |mut stream| Box::pin(async move{
+        while let Some(message) = stream.next().await {
+            let _ = stream.send(message?).await;
         }
-    }
+        Ok(())
+    }))
 }
+
+#[launch]
+fn rocket() -> _ {
+    rocket::build()
+        .mount("/client", routes![client])
+        .mount("/server", routes![server])
+}
+
+
